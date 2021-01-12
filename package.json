@@ -1,0 +1,25 @@
+{
+  "name": "@pxlwrx/logo-dummy-page",
+  "version": "1.0.0",
+  "description": "Just a dummy page with logo",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server --proxy http://localhost:8080?",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pxlwrx/logo-dummy-page.git"
+  },
+  "author": "Sören Oehding <soeren.oehding@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxlwrx/logo-dummy-page/issues"
+  },
+  "homepage": "https://github.com/pxlwrx/logo-dummy-page#readme",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.0.5",
+    "fingerprintjs2": "^2.1.2",
+    "http-server": "^0.12.3"
+  }
+}
